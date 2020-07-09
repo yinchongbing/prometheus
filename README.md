@@ -1,7 +1,7 @@
 # prometheus
 kubernetes(版本&lt;1.16)部署prometheus;
-
-promethues相关配置文件[地址](https://github.com/kubernetes/kubernetes/tree/release-1.14/cluster/addons/prometheus)
+gpu监控需要集群安装gpu监控插件;nvidia插件[地址](https://github.com/NVIDIA/k8s-device-plugin/tree/v1.11)
+promethues相关配置文件[地址](https://github.com/kubernetes/kubernetes/tree/release-1.14/cluster/addons/prometheus);
 DCGM相关配置文件[地址](https://github.com/NVIDIA/gpu-monitoring-tools)
 
 ## 1.安装kube-state-metrics和node-exporter
